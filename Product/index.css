@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+nav .logo{
+    position: absolute;
+    font-size: 1.5rem;
+    padding-top: 3vh;
+    padding-left: 3vh;
+}
+
+nav input{
+    position: absolute;
+    width: 20vw;
+    height: 4vh;
+    margin-top: 3vh;
+    margin-left: 30%;
+    border-radius: 5px;
+    padding-left: 1vw;
+}
+
+nav .menu-items{
+    list-style: none;
+    width: 20vw;
+    margin-left: auto;
+}
+
+nav .menu-items .menu-item{
+    display: inline-block;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+}
+
+nav .menu-items .menu-item button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    background-color: gray;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.sidebar{
+    height: 90vh;
+    width: 15vw;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar .heading{
+    font-weight: bolder;
+    font-size: 1.75rem;
+    margin-left: 2vw;
+    padding-top: 2vh;
+}
+
+.sidebar .sub-heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.sidebar input{
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.card-container{
+    position: absolute;
+    max-width: 90vw;
+    margin-top: -90vh;
+    margin-bottom: 7vh;
+    margin-left: 25vw;
+}
+
+.card-container .card{
+    width: 20vw;
+    height: 40vh;
+    display: inline-block;
+    margin: 2rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.card-container .card img{
+    position: absolute;
+    width: 20vw;
+    height: 10rem;
+}
+
+.card-container .card .tag{
+    text-align: center;
+    margin-top: 12rem;
+    font-size: 1.25rem;
+}
+
+.card-container .card .price{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-container .card button{
+    border: none;
+    width: 20vw;
+    height: 2rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
